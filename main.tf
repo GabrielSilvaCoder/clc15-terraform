@@ -4,7 +4,7 @@ resource "aws_vpc" "terraform_vpc" {
 
   tags = {
     Name = "tf-vpc-igw"
-    Owner = "Devops"
+    Owner = "DevOps"
   }
 }
 
